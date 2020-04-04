@@ -8,9 +8,8 @@ Building this site one step at a time
 * Create `index.html`
 - Create `style.css`
 - Create `log.js`
-- Create `handlers/handlers.js`
+- Create `app/app.js`
 - Create `interactions/interactions.js`
-- Create `view/styles.js`
 
 ## 1. User Story: Play/Pause
  
@@ -22,18 +21,18 @@ Building this site one step at a time
  
 ### Style
  * Create necessary styles.
- 
-### Handlers
+
+### App
  * Create a function that can starts video playing.
  * Create a function that updates the play/pause button.
  
-### Listeners
+### Interactions
  * Create a listener to listen `click`, `play` and `pause` events of video element.
  * Create a listener to listen `click` event of `toggle` element.
 
  ### Log
 
- * 
+ * Log current status.
  
 ## 2. User Story: Skip
 
@@ -45,15 +44,15 @@ __A user can upward/forward the video. __
 ### Style
  * Create necessary styles.
  
-### Handlers
+### App
 * Create a skip function.
 
-### Listeners
+### Interactions
 * Create a listener to listen `click` event of `skip buttons`.
 
  ### Log
 
- * 
+ * Log current status.
 
 ## 3. User Story: Range Sliders
 
@@ -65,16 +64,16 @@ __A user can slowdown/speedup the playing video, and volume up/down.__
 ### Style
  * Create necessary styles.
  
-### Handlers
+### App
 * Create a function that handles range updates.
 
-### Listeners
+### Interactions
 * Create a listener to listen `change` event of `ranges` element.
 * Create a listener to listen `mousemove` event of `ranges` element.
 
  ### Log
 
- * 
+ * Log current status.
  
 ## 4. User Story: Video Bar
 
@@ -83,15 +82,15 @@ __A user can see the progress bar for video.__
 ### DOM 
 * Create `div` elements for `progress bar` which type of `range`.
 
-### Handlers
+### App
 * Create a function that handles the progress percentage.
 
-### Listeners
+### Interactions
 * Create a listener to listen `timeupdate` event of `video` element.
 
  ### Log
 
- * 
+ * Log current status.
  
 ## 5. User Story: Video Bar Jump and Drag
 
@@ -100,14 +99,14 @@ __A user can click and drag on video bar and watch the video beginning chosen ti
 ### DOM 
 * Update necessary classes for style.
 
-### Handlers
+### App
 * Create a function that updates the progress percentage by user click.
 
-### Listeners
+### Interactions
 * Create a listener to listen `click` event of `progress` element.
 * Create a listener to listen `mousemove` event of `progress` element.
 
  ### Log
 
- * 
+ * Log current status.
  
