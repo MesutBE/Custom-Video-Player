@@ -10,6 +10,7 @@ Building this site one step at a time
 - Create `log.js`
 - Create `app/app.js`
 - Create `interactions/interactions.js`
+- Create `readme.md`
 
 ## 1. User Story: Play/Pause
  
@@ -36,7 +37,7 @@ Building this site one step at a time
  
 ## 2. User Story: Skip
 
-__A user can upward/forward the video. __
+__A user can upward/forward the video.__
 
 ### DOM 
 * Create two skip buttons which user can skip video 10 or 25 seconds.
@@ -110,3 +111,6 @@ __A user can click and drag on video bar and watch the video beginning chosen ti
 
  * Log current status.
  
+ ## 6. Complete Readme
+
+ * Complete `readme` file that gives information to the users about the project.
