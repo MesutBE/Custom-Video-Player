@@ -1,5 +1,5 @@
 
-debugger;
+// debugger;
 const player = document.querySelector('.player');
 const toggle = player.querySelector('.toggle');
 const video = player.querySelector('.viewer');
