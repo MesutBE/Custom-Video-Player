@@ -14,6 +14,25 @@ function updateButton() {
 }
 //Skip user-story 2 
 function skip() {
-    debugger;
+    // debugger;
     video.currentTime += parseFloat(this.dataset.skip);
+}
+
+// 4. User Story: Video Bar
+function handleProgress() {
+    debugger
+    const percent = (video.currentTime / video.duration) * 100;
+    progressBar.style.flexBasis = `${percent}%`;
+
+    logCurrent('Video bar updated..');
+}
+
+
+function logCurrent (message){
+    log.push(
+        {
+            current: message,
+        }
+    );
+    console.log(message);
 }
