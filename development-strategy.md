@@ -88,10 +88,6 @@ __A user can see the progress bar for video.__
 
 ### Interactions
 * Create a listener to listen `timeupdate` event of `video` element.
-
- ### Log
-
- * Log current status.
  
 ## 5. User Story: Video Bar Jump and Drag
 
